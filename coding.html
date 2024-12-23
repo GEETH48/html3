@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Contests</title>
+</head>
+<body>
+<div>
+    <div>
+        <img src="C:/Users/lenovo/OneDrive/Desktop/Assignment%202/coding" alt="Coding Image" height="170">
+    </div>
+    <div>
+        <p>Participate in coding challenges and competitions to sharpen your programming skills and win prizes.</p>
+    </div>
+    <div>
+        <form action="/register_contest" method="POST">
+            <div>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </div><br>
+            <div>
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div><br>
+            <div>
+                <label for="category">Contest Category:</label><br>
+                <select id="category" name="category" required>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </div><br>
+            <div>
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
