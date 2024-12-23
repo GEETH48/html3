@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses</title>
+</head>
+<body>
+<div>
+    <div>
+        <img src="C:/Users/lenovo/OneDrive/Desktop/Assignment%202/course" alt="Course Image" height="65">
+    </div>
+    <br>
+    <div>
+        <p>Explore a variety of online courses that will help you improve your skills. Topics include data structures, algorithms, machine learning, web development, and much more!</p>
+        <p>Enroll in both free and paid courses to expand your knowledge and enhance your career!</p>
+    </div>
+    <br>
+    <div>
+        <form action="/submit_course_interest" method="POST">
+            <div>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="course">Preferred Course Topic:</label><br>
+                <input type="text" id="course" name="course" required>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit Interest">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
