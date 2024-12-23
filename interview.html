@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Preparation</title>
+</head>
+<body>
+<div>
+    <div>
+        <img src="dsa.png" alt="Interview Image" height="175">
+    </div>
+    <div>
+        <p>Access commonly asked technical interview questions to prepare for job interviews at top companies.</p>
+    </div>
+    <div>
+        <form action="/submit_interview_request" method="POST">
+            <div>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </div><br>
+            <div>
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div><br>
+            <div>
+                <label for="role">Job Role of Interest:</label><br>
+                <select id="role" name="role" required>
+                    <option value="software_engineer">Software Engineer</option>
+                    <option value="data_scientist">Data Scientist</option>
+                    <option value="product_manager">Product Manager</option>
+                </select>
+            </div><br>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
